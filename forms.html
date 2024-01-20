@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .one
+      {
+        display: flex;
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+    <style>
+      .u
+      {
+        display: grid;
+       grid-template-columns:
+        repeat(2,1fr);
+        gap: 50px;
+        padding: 20px;
+        background-color:gold; 
+        text-align: center;
+
+      }
+      @media(max-width: 475px)
+      {
+        .u{
+          grid-template-columns: repeat(1,1fr);
+        }
+      }
+      
+    </style>
+   <style>
+    .e
+    {
+      display: grid;
+      background-color: brown;
+      padding: 50px;
+      text-align: center;
+    }
+   </style>
+   <style>
+    .g
+    {
+      display :flex;
+      background-color: blanchedalmond;
+      border-radius: 5rem;
+      
+
+
+    }
+
+   </style>
+    
+    <title>
+      forms
+    </title>
+  </head>
+  <body>
+    <center>
+      <h1>FORMS</h1>
+
+    <input type="text" placeholder="name" style="border-radius: 10px; border-color: brown;"><br><br><br>
+    <input type="password" placeholder="password"><br><br><br>
+    <button style="background-color: blue;">
+      sign in
+      
+    </button>
+    <button style="background-color: blue;">
+      sign out
+      
+    </button><br><br><br>
+    <div class="one">
+      <div style="background-color:pink; width:50% ; height: 100%;">01</div>
+      <div style="background-color:pink; width:50% ; height: 50%">02</div>
+      <div style="background-color:pink; width:50% ;height: 50%">03</div>
+      
+    </div>
+    <div class="u">
+      <div class="e">01</div>
+      <div class="e">02</div>
+      <div class="e">03</div>
+      <div class="e">04</div>
+      <div class="e">05</div>
+      <div class="e">06</div>
+    
+  </center>
+  </body>
+</html>
